@@ -1,10 +1,10 @@
-# Analisi delle Emissioni e delle Energie Rinnovabili nei Paesi dell’Unione Europea 
+# Analisi delle Emissioni e delle Energie Rinnovabili nei Paesi dell’Unione Europea (1990–2023)
 
 ## 📌 Contesto del progetto
-Questo progetto si inserisce in uno scenario ispirato alle attività dell’Agenzia Europea dell’Ambiente (EEA).  
-L’obiettivo generale è analizzare i progressi dei Paesi dell’Unione Europea rispetto agli obiettivi climatici e ambientali fissati per il 2030, in linea con il Green Deal Europeo.
+Questo progetto si inserisce in uno scenario ispirato alle attività dell’Agenzia Europea dell’Ambiente (EEA).
+L’obiettivo è analizzare i progressi dei Paesi dell’Unione Europea rispetto agli obiettivi climatici e ambientali fissati per il 2030, in linea con il Green Deal Europeo e le politiche di decarbonizzazione dell’UE.
 
-L’analisi si concentra in particolare sulle **emissioni di gas serra** e sul loro andamento nel tempo, con un focus sui Paesi dell’Unione Europea.
+L’analisi si concentra sull’andamento delle emissioni di gas serra nel tempo, confrontando i Paesi membri dell’Unione Europea per individuare differenze strutturali, trend e criticità.
 
 ---
 
@@ -28,7 +28,7 @@ Gli obiettivi principali dell’analisi sono:
 - Identificare i **Paesi dell’Unione Europea più inquinanti**, sulla base delle emissioni totali nel periodo considerato
 - Analizzare la **distribuzione delle emissioni** tra i Paesi UE
 - Confrontare emissioni **totali** e **medie** come metriche di valutazione
-- Fornire una base quantitativa per riflessioni su trend e differenze tra Paesi
+- Stimare l’andamento futuro delle emissioni nei Paesi dell’Unione Europea.
 
 L’analisi adotta un approccio descrittivo e comparativo, con particolare attenzione alla qualità e alla pulizia dei dati.
 
@@ -39,6 +39,7 @@ L’intera analisi è stata svolta in **Python**, utilizzando principalmente:
 
 - `pandas` per la manipolazione e pulizia dei dati
 - `matplotlib` e `seaborn` per la visualizzazione dei risultati
+-  `Scikit-learn` e `Statsmodels` per supportare analisi statistiche e modelli esplorativi
 
 Le principali fasi del lavoro includono:
 1. Caricamento e organizzazione dei dataset
@@ -46,6 +47,8 @@ Le principali fasi del lavoro includono:
 3. Conversione e validazione dei dati numerici
 4. Calcolo delle emissioni totali e medie per Paese
 5. Analisi esplorativa tramite grafici e statistiche descrittive
+6. Analisi dei trend temporali
+7. Sviluppo di modelli previsionali per stimare l’evoluzione futura delle emissioni
 
 ---
 
@@ -53,7 +56,6 @@ Le principali fasi del lavoro includono:
 I risultati dell’analisi sono stati sintetizzati in una **presentazione finale** che riassume:
 - i principali insight emersi dai dati
 - le differenze tra i Paesi UE
-- considerazioni di carattere generale sulle emissioni nel periodo analizzato
 
 🔗 **Presentazione finale**:
 
@@ -61,3 +63,7 @@ I risultati dell’analisi sono stati sintetizzati in una **presentazione finale
 
 ## ✍️ Autore
 Progetto realizzato da **Mariapaola Germinario** nell’ambito del corso di **Data Analysis** presso **Aulab**.
+
+---
+
+Questo progetto è stato sviluppato a fini didattici e non rappresenta un'analisi ufficiale dell'Agenzia europea dell'ambiente.
