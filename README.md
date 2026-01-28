@@ -57,7 +57,7 @@ I risultati dell’analisi sono stati sintetizzati in una **presentazione finale
 - i principali insight emersi dai dati
 - le differenze tra i Paesi UE
 
-🔗 **Presentazione finale**:
+🔗 **Presentazione finale**: https://drive.google.com/file/d/1RJbew2xRUS7haFk15KWNv9kRAA-7KzG7/view?usp=sharing
 
 ---
 
